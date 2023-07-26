@@ -1,0 +1,110 @@
+/* WIDGET 1 */
+.widget1 {
+    height: 100%;
+    position: relative;
+}
+
+.widget1.widget-red {
+    background: #FF6850;
+}
+
+.widget1.widget-red .widget-icon, .widget1.widget-red .widget-button, .widget1.widget-red .widget-button i {
+    color: #FF6850 !important;
+}
+
+.widget1.widget-red .widget-button {
+    min-width: 120px;
+}
+
+.widget1.widget-yellow {
+    background: #FCAF29;
+}
+
+.widget1.widget-yellow .widget-icon, .widget1.widget-yellow .widget-button, .widget1.widget-yellow .widget-button i {
+    color: #FCAF29 !important;
+}
+
+.widget1 svg {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.widget1 .widget-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.widget1 .widget-count {
+    font-weight: bold;
+}
+
+
+/* WIDGET 2 */
+.widget2 {
+    height: 100%;
+    position: relative;
+}
+
+.widget2.widget-red {
+    background: #FF6850;
+}
+
+.widget2.widget-red .widget-icon, .widget2.widget-red .widget-button, .widget2.widget-red .widget-button i {
+    color: #FF6850 !important;
+}
+
+.widget2.widget-yellow {
+    background: #FCAF29;
+}
+
+.widget2.widget-yellow .widget-icon, .widget2.widget-yellow .widget-button, .widget2.widget-yellow .widget-button i {
+    color: #FCAF29 !important;
+}
+
+.widget2 svg {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.widget2 p, .widget2 .widget-button, .widget2 .widget-button i {
+    font-size: 1rem !important;
+}
+
+.widget2 .widget-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.widget2 .widget-count {
+    font-weight: bold;
+}
+
+
+
+.collapse-trigger .expand-icon {
+    display: none !important;
+}
+
+.collapse-trigger .collapse-icon {
+    display: inline-block !important;
+}
+
+.collapse-trigger.collapsed .expand-icon {
+    display: inline-block !important;
+}
+
+.collapse-trigger.collapsed .collapse-icon {
+    display: none !important;
+}
